@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Dashboard from './pages/Dashboard';
-import NewLead from './pages/NewLead';
-import Leads from './pages/Leads';
-import FollowUps from './pages/FollowUps';
-import Pricing from './pages/Pricing';
-import Settings from './pages/Settings';
+import Navbar from './components/Navbar.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import NewLead from './pages/NewLead.jsx';
+import Leads from './pages/Leads.jsx';
+import FollowUps from './pages/FollowUps.jsx';
+import Pricing from './pages/Pricing.jsx';
+import Settings from './pages/Settings.jsx';
 
 export default function App() {
   return (
