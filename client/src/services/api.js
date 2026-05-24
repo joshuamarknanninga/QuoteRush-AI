@@ -18,6 +18,6 @@ export function createCheckoutSession(priceKey) {
   return post('/api/stripe/create-checkout-session', { priceKey });
 }
 
-export function createPortalSession() {
-  return post('/api/stripe/create-portal-session', {});
+export function createPortalSession(customerId) {
+  return post('/api/stripe/create-portal-session', { customerId });
 }
